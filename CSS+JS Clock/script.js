@@ -14,10 +14,12 @@ function setDate(){
     const minDegress = ((min/60) * 360) + 90;
     //    calculate the hourse on the  current date 
        const hours = now.getHours();
+    //    const hours12 = hours /12;
         // convert the calculated hours to degeree to rated the  hours hand of clock
-       const hoursDegrees = ((hours/ 24) * 360) + 90;
+       const hoursDegrees = ((hours/ 12) * 360) + 90;
    secondHand.style.transform = `rotate(${secDegress}deg)`;
    minHand.style.transform =`rotate(${minDegress}deg)`;
+   hourHand.style.transform =`rotate(${hoursDegrees}deg)`;
    hourHand.style.transform = `rotate(${hoursDegrees}.deg);`
 }
 setInterval(setDate, 1000);
