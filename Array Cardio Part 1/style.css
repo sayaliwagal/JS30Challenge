@@ -1,0 +1,85 @@
+body { 
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.filter-contorls {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #e0f2f7;
+    border-radius: 5px;
+}
+
+.filter-contorls label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+.filter-contorls select{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.filter-contorls select:focus {
+    outline: none;
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}
+#inventorsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#inventorsTable th,
+#inventorsTable td {
+    padding:  12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#inventorsTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+}
+
+#inventorsTable tbody tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+#inventorsTable tbody tr:hover{
+    background-color:#e0f7fa ;
+}
+
+#inventorsList, #bandsList {
+    list-style: none;
+    padding: 0;
+}
+
+#inventorsList li, #bandsList li {
+    border: 1px soild #ccc;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#inventorsList li strong {
+    font-weight: bold;
+    color: #2196f3;
+}
