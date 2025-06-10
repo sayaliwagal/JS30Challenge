@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url("https://picsum.photos/1366/700");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#bands {
+    font-size: 20px;
+    background: #8653f5;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+    list-style: square;
+    border-bottom: 1px solid #e9a75d;
+    padding: 20px;
+}
+#bands li::marker{
+    color: #fff;
+}
+
+#bands li:last-child {
+    border-bottom: 0;
+}
+
