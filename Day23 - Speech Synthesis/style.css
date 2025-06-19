@@ -1,0 +1,85 @@
+html {
+    font-size:  10px;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7b7b7d; /*#3BC1AC */
+    display: flex;
+    min-height:  100vh;
+    align-items: center;
+    background-image: radial-gradient(circle at 100% 150%, #7b7b7d 24%, #353537 25%, #353537 28%, #7b7b7d 29%, #7b7b7d 36%, #7b7b7d 36%, #353537 40%, transparent 40%, transparent),
+    radial-gradient(circle at   0 150%,  #7b7b7d 24%, #353537 25%, #353537 28%, #7b7b7d 29%, #7b7b7d 36%, #353537 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50% 100%,  #353537 10%, #7b7b7d 11%, #7b7b7d 23%, #353537 24%, #353537 30%, #7b7b7d 31%, #7b7b7d 43%, #353537 44%, #353537 50%, #7b7b7d 51%, #7b7b7d 63%, #353537 64%, #353537 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%,  #353537 5%, #7b7b7d 6%, #7b7b7d 15%, #353537 16%, #353537 20%, #7b7b7d 21%, #7b7b7d 30%, #353537 31%, #353537 35%, #7b7b7d 36%, #7b7b7d 45%, #353537 46%, #353537 49%, transparent 50%, transparent),
+    radial-gradient(circle at   0  50%,  #353537 5%, #7b7b7d 6%, #7b7b7d 15%, #353537 16%, #353537 20%, #7b7b7d 21%, #7b7b7d 30%, #353537 31%, #353537 35%, #7b7b7d 36%, #7b7b7d 45%, #353537 46%, #353537 49%, transparent 50%, transparent);
+    background-size: 100px 50px;
+}
+
+.voiceinator {
+    padding:  2rem;
+    width: 50\0px;
+    margin:  0 auto;
+    border-radius: 1rem;
+    position: relative;
+    background: white;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    width: calc(100% + 4rem);
+    margin:  -2rem 0 2rem -2rem;
+    padding: .5rem;
+    background: #5bebb4;
+    text-align: center;
+    color: #6b6565;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:  3px 3px 0 #53ebb1;
+}
+
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+    width: 100%;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 2rem;
+    background-color: #e6dddd;
+    outline: 0;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.voiceinator button {
+    background: #53ebb1;
+    border: 0;
+    width: 45%;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+    font-size: 2rem;
+    border-bottom:  5px solid #5bebb4;
+    cursor: pointer;
+    position: relative;
+}
+
+.voiceinator button:nth-of-type(1) {
+    margin-right: 2%;
+}
+
