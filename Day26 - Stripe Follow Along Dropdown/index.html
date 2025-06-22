@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Expandable Nav</h2>
+    <nav class="top">
+        <div class="dropdownBack">
+            <span class="arrow"></span>
+        </div>
+        <ul class="expand">
+            <li>
+                <a href="#">About Me</a>
+                <div class="dropdown dropdown1">
+                    <div class="bio">
+                        <img src="https://picsum.photos/100/100" alt="profile image">
+                        <p>
+                            Lorem ipsum, dolor <br/> sit amet consectetur <br/>adipisicing elit. 
+                            Ea quod<br/> id iste dolores et <br/>sapiente deleniti. <br/>Vel dicta vero 
+                            officia!
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">Courses</a>
+                <ul class="dropdown courses">
+                    <li>
+                        <span class="code">RFB</span>
+                        <a href="#">Rect For Beginners</a>
+                    </li>
+                    <li>
+                        <span class="code">ES6</span>
+                        <a href="#">ES6 For Everyone</a>
+                    </li>
+                    <li>
+                        <span class="code">NODE</span>
+                        <a href="#">Learn Node</a>
+                    </li>
+                    <li>
+                        <span class="code">STPU</span>
+                        <a href="#">Sublime Text Power User</a>
+                    </li>
+                    <li>
+                        <span class="code">WTF</span>
+                        <a href="#">What the Flexbox?!</a>
+                    </li>
+                    <li>
+                        <span class="code">GRID</span>
+                        <a href="#">CSS GRID</a>
+                    </li>
+                    <li>
+                        <span class="code">LRX</span>
+                        <a href="#">Learn Redux</a>
+                    </li>
+                    <li>
+                        <span class="code">CLPU</span>
+                        <a href="#">Command Line Power User</a>
+                    </li>
+                    <li>
+                        <span class="code">MMD</span>
+                        <a href="#">Mastering Markdown</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Other Links</a>
+                <ul class="dropdown dropdown3">
+                    <li><a href="#" class="btn twitter">X</a></li>
+                    <li><a href="#" class="btn facebook">Facebook</a></li>
+                    <li><a href="#" class="btn blog">Blog</a></li>
+                    <li><a href="#" class="btn course">Course Catalog</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <script src="./script.js"></script>
+</body>
+</html>
