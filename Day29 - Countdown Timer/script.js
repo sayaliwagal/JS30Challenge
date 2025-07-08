@@ -32,7 +32,7 @@ function disEndTime(timestamp){
     const end = new Date(timestamp);
     const hour = end.getHours();
     const minutes = end.getMinutes();
-    endTime.textContent = `Be Bakc at ${hour}:${minutes< 10 ? '0': ''}${minutes}`;
+    endTime.textContent = `Be Back at ${hour}:${minutes< 10 ? '0': ''}${minutes}`;
 }
 
 function startTimer() {
